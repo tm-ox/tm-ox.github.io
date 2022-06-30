@@ -10,7 +10,10 @@
       @apply w-full mx-auto p-6 font-jakarta tracking-wide bg-background text-primary;
     }
     header {
-        @apply fixed top-6;
+        @apply fixed top-6 z-50;
+    }
+    section {
+      @apply flex flex-col items-center min-h-screen justify-center;
     }
     h1 {
         @apply font-extrabold text-5xl;
@@ -22,7 +25,7 @@
         @apply font-extralight text-3xl;
     }
     h4 {
-        @apply font-bold text-2xl;
+        @apply text-xl mb-auto ml-12 mr-auto mt-6 font-medium tracking-wide;
     }
     p {
         @apply font-light text-xl;
@@ -30,6 +33,21 @@
     h5 {
         @apply font-extrabold;
     }
+    a:hover {
+      @apply font-bold tracking-normal;
+    }
+    a:active {
+      @apply font-bold;
+    }
+    input, textarea {
+      @apply rounded-md mb-4 p-2;
+    }
+}
+
+@layer components {
+  .nav {
+    @apply flex items-end h-screen sticky top-[-24px];
+  }
 }
 
 html {

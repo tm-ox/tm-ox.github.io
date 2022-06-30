@@ -15,20 +15,18 @@
           r="1406.32"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" style="stop-color: #fc019c; stop-opacity: 1" />
-          <stop
-            offset="0.5808"
-            style="stop-color: #fc019c; stop-opacity: 0.41960785"
-          />
-          <stop
-            offset="0.79"
-            style="stop-color: #fc019c; stop-opacity: 0.21176471"
-          />
-          <stop
-            offset="0.9386"
-            style="stop-color: #101119; stop-opacity: 6.139398e-2"
-          />
-          <stop offset="1" style="stop-color: #101119; stop-opacity: 0" />
+          <stop offset="0" stop-color="#fc019c" />
+          <stop offset="0.37" stop-color="#fa019b" stop-opacity="0.99" />
+          <stop offset="0.51" stop-color="#f40298" stop-opacity="0.97" />
+          <stop offset="0.6" stop-color="#e90392" stop-opacity="0.92" />
+          <stop offset="0.68" stop-color="#da0589" stop-opacity="0.85" />
+          <stop offset="0.75" stop-color="#c6077e" stop-opacity="0.76" />
+          <stop offset="0.81" stop-color="#ae0970" stop-opacity="0.66" />
+          <stop offset="0.86" stop-color="#900c60" stop-opacity="0.53" />
+          <stop offset="0.91" stop-color="#6e104c" stop-opacity="0.38" />
+          <stop offset="0.95" stop-color="#471436" stop-opacity="0.21" />
+          <stop offset="0.99" stop-color="#1e181f" stop-opacity="0.03" />
+          <stop offset="1" stop-color="#18191c" stop-opacity="0" />
         </radialGradient>
       </defs>
       <path
