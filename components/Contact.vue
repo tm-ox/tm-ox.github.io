@@ -16,7 +16,7 @@
       />
       <input type="hidden" name="subject" value="contact form - tm.ox" />
       <input type="hidden" name="replyTo" value="@" />
-      <input type="hidden" name="redirectTo" value="/" />
+      <input type="hidden" name="redirectTo" value="https://tm.oxenfree.net" />
       <button class="submitButton" type="submit">submit</button>
     </form>
   </div>
