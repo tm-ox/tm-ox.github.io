@@ -1,13 +1,32 @@
 <template>
-  <div class="w-screen max-w-xl px-4 py-6 pt-8 rounded-3xl z-40 bg-primary">
-    <form
-      action="https://api.staticforms.xyz/submit"
-      method="post"
-      class="flex flex-col"
+  <form
+    action="https://api.staticforms.xyz/submit"
+    method="post"
+    class="flex flex-col"
+  >
+    <div
+      class="flex flex-col w-screen max-w-xl px-4 py-6 rounded-2xl mb-6 bg-primary"
     >
-      <input type="text" name="name" placeholder="name" required />
-      <input type="text" name="email" placeholder="email" required />
-      <textarea name="message" placeholder="message" required></textarea>
+      <input
+        type="text"
+        name="name"
+        placeholder="name"
+        required
+        class="form autofill:bg-primary"
+      />
+      <input
+        type="text"
+        name="email"
+        placeholder="email"
+        required
+        class="form"
+      />
+      <textarea
+        name="message"
+        placeholder="message"
+        required
+        class="form pb-0 mb-0"
+      ></textarea>
       <input type="text" name="honeypot" style="display: none" />
       <input
         type="hidden"
@@ -16,8 +35,12 @@
       />
       <input type="hidden" name="subject" value="contact form - tm.ox" />
       <input type="hidden" name="replyTo" value="@" />
-      <input type="hidden" name="redirectTo" value="https://tm.oxenfree.net" />
-      <button class="submitButton" type="submit">submit</button>
-    </form>
-  </div>
+      <input
+        type="hidden"
+        name="redirectTo"
+        value="https://tm.oxenfree.net/thanks"
+      />
+    </div>
+    <button class="submitButton" type="submit">submit</button>
+  </form>
 </template>

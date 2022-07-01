@@ -39,24 +39,41 @@
     a:active {
       @apply font-bold;
     }
-    input, textarea {
-      @apply rounded-2xl mb-4 p-2 px-4 pb-3 bg-background placeholder:text-primary placeholder:text-sm;
+    textarea {
+      @apply h-24;
     }
 }
 
 @layer components {
   .stickyNav {
-    @apply sticky top-[calc(100%-48px)];
+    @apply sticky top-[calc(100%-64px)];
   }
   .container {
-    @apply flex flex-1 min-h-max justify-center items-center mb-14 mt-6;
-  }
-  .submitButton {
-    @apply self-center bg-background hover:bg-primary font-normal hover:text-background hover:font-bold p-2 px-6 rounded-3xl trans;
+    @apply flex flex-1 min-h-max justify-center items-center mb-20 mt-6;
   }
   .trans {
     @apply transition duration-300 ease-in-out;
   }
+  .form {
+    @apply mb-4 px-4 rounded-2xl bg-background border-0 ring-0 focus:border-0 focus:ring-0 focus:bg-background placeholder:text-primary;
+  }
+  .submitButton {
+    @apply self-center bg-primary hover:bg-primary font-normal text-background hover:font-bold py-1 px-6 rounded-2xl trans;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fc019c;
+  -webkit-box-shadow: 0 0 0px 1000px #101119 inset;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 html {

@@ -10,7 +10,7 @@
 export default {
   head() {
     return {
-      title: "tm-ox",
+      title: "tm.ox",
       link: [
         {
           rel: "icon",
