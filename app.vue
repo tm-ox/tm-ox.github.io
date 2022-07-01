@@ -14,8 +14,8 @@ export default {
       link: [
         {
           rel: "icon",
-          type: "image/ico",
-          href: `favicon.ico`,
+          type: "image/png",
+          href: `favicon.png`,
         },
       ],
       script: [{}],

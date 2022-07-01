@@ -1,18 +1,20 @@
 <template>
-  <header>
-    <Logo />
-  </header>
-  <section id="home">
-    <a href="#soon">
-      <H1kz />
-    </a>
+  <Header />
+  <H1kz />
+  <Nav />
+  <section id="main">
+    <h4>hi!</h4>
+    <div class="container">
+      <h1>
+        we are all<br />
+        a work in progress..
+      </h1>
+    </div>
   </section>
-  <div class="flex" id="soon">
-    <a href="#home" class="hover:tracking-wide">
-      <h5>tm.ox</h5>
-    </a>
-    <p class="px-1">_</p>
-    <a href="#1">soon</a>
-    <h5 class="font-light ml-auto">building...</h5>
-  </div>
+  <section id="contact">
+    <h4>contact</h4>
+    <div class="container">
+      <Contact />
+    </div>
+  </section>
 </template>
