@@ -6,7 +6,7 @@
         <h1>sent..</h1>
         <h3>thanks</h3>
       </div>
-      <a href="https:tm.oxenfree.net">back</a>
+      <a href="/">back</a>
     </div>
   </section>
 </template>

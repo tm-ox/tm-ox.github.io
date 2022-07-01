@@ -6,7 +6,7 @@
         <h1>salah..</h1>
         <h3>404</h3>
       </div>
-      <a href="https:tm.oxenfree.net">back</a>
+      <a href="/">back</a>
     </div>
   </section>
 </template>
