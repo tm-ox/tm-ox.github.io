@@ -38,7 +38,7 @@
       <input
         type="hidden"
         name="redirectTo"
-        value="https://tm.oxenfree.net/thanks"
+        value="https://tm.oxenfree.net/sent"
       />
     </div>
     <button class="submitButton" type="submit">submit</button>

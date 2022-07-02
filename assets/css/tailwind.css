@@ -10,7 +10,7 @@
       @apply w-full mx-auto p-6 font-jakarta tracking-wide bg-background text-primary;
     }
     header {
-        @apply fixed top-6 z-50;
+        @apply fixed top-10 z-50;
     }
     section {
       @apply flex flex-col items-center min-h-screen;
@@ -25,7 +25,7 @@
         @apply font-extralight text-3xl;
     }
     h4 {
-        @apply text-xl ml-12 mr-auto mt-6 font-medium tracking-wide sticky top-6;
+        @apply text-xl ml-12 mr-auto mt-6 font-medium tracking-wide sticky top-10;
     }
     p {
         @apply font-light text-xl;
@@ -46,7 +46,7 @@
 
 @layer components {
   .stickyNav {
-    @apply sticky top-[calc(100%-64px)];
+    @apply sticky top-[calc(100%-64px)] z-50;
   }
   .container {
     @apply flex flex-1 min-h-max justify-center items-center mb-20 mt-6;
