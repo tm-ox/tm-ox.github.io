@@ -39,6 +39,9 @@
     a:hover {
       @apply text-midgrey trans;
     }
+    a:active {
+      @apply text-primary trans;
+    }
     textarea {
       @apply h-24;
     }

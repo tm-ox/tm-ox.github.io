@@ -2,11 +2,9 @@
   <form
     action="https://api.staticforms.xyz/submit"
     method="post"
-    class="flex flex-col"
+    class="flex flex-col w-full max-w-xl"
   >
-    <div
-      class="flex flex-col w-screen max-w-xl px-4 py-6 rounded-2xl mb-6 bg-primary"
-    >
+    <div class="flex flex-col px-4 py-6 rounded-2xl mb-6 bg-primary">
       <input
         type="text"
         name="name"
