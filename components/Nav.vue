@@ -1,18 +1,45 @@
 <template>
-  <div class="stickyNav">
-    <div class="flex items-end">
-      <a href="#home" class="hover:tracking-wide">
+  <nav>
+    <ul class="flex items-end">
+      <a href="#home">
         <h5>tm.ox</h5>
       </a>
-      <p class="px-1">_</p>
-      <div>
-        <a href="#main">hi!</a>
-      </div>
-      <p class="px-1">_</p>
-      <a href="#work">work</a>
-      <p class="px-1">_</p>
-      <a href="#contact">contact</a>
-      <h5 class="font-light ml-auto">building..</h5>
-    </div>
-  </div>
+      <li v-for="(item, $index) in items" :key="$index">
+        <a
+          @click="setUrlSection(item.section)"
+          :href="item.link"
+          :class="{ active: urlSection === item.link }"
+          class="pl-[2px]"
+          >{{ item.name }}</a
+        >
+      </li>
+      <li class="font-light ml-auto">building..</li>
+    </ul>
+  </nav>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      items: [
+        {
+          name: "_ hi",
+          link: "#main",
+          section: "hi",
+        },
+        {
+          name: "_ work",
+          link: "#work",
+          section: "work",
+        },
+        {
+          name: "_ contact",
+          link: "#contact",
+          section: "contact",
+        },
+      ],
+    };
+  },
+};
+</script>

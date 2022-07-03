@@ -12,6 +12,9 @@
     header {
         @apply fixed top-10 z-50;
     }
+    nav {
+      @apply sticky top-[calc(100%-64px)] z-50;
+    }
     section {
       @apply flex flex-col items-center min-h-screen;
     }
@@ -25,7 +28,7 @@
         @apply font-extralight text-3xl;
     }
     h4 {
-        @apply text-xl ml-12 mr-auto mt-6 font-medium tracking-wide sticky top-10;
+        @apply text-xl ml-12 mr-auto mt-6 font-bold tracking-wide sticky top-10;
     }
     p {
         @apply font-light text-xl;
@@ -34,10 +37,7 @@
         @apply font-extrabold;
     }
     a:hover {
-      @apply font-bold tracking-normal trans;
-    }
-    a:active {
-      @apply font-bold;
+      @apply text-midgrey trans;
     }
     textarea {
       @apply h-24;
@@ -55,10 +55,10 @@
     @apply transition duration-300 ease-in-out;
   }
   .form {
-    @apply mb-4 px-4 rounded-2xl bg-background border-0 ring-0 focus:border-0 focus:ring-0 focus:bg-background placeholder:text-primary;
+    @apply mb-4 px-4 rounded-2xl bg-midgrey border-0 ring-0 focus:border-0 focus:ring-0 focus:bg-background placeholder:text-primary;
   }
   .submitButton {
-    @apply self-center bg-primary hover:bg-primary font-normal text-background hover:font-bold py-1 px-6 rounded-2xl trans;
+    @apply self-center bg-primary font-normal text-background hover:bg-midgrey hover:text-primary border-[1px] border-primary py-1 px-6 rounded-2xl trans;
   }
 }
 

@@ -18,7 +18,7 @@ export default {
           href: `favicon.png`,
         },
       ],
-      script: [{}],
+      script: [{ src: "dist/vue-scrollactive.min.js" }],
     };
   },
 };

@@ -12,7 +12,7 @@ module.exports = {
       primary: "#fc019c",
       secondary: "#F1E7E4",
       background: "#101119",
-      buttons: "#1B1F22",
+      midgrey: "#1B1F22",
       hover: "#9F3324",
       white: "#FFFFFF",
     },
