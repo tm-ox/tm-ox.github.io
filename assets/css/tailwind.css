@@ -42,6 +42,9 @@
     a:active {
       @apply text-primary trans;
     }
+    a:focus {
+      @apply text-primary trans;
+    }
     textarea {
       @apply h-24;
     }
