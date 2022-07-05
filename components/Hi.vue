@@ -1,9 +1,13 @@
 <template>
-  <h4>hi</h4>
+  <h4>
+    <FadeUp>hi</FadeUp>
+  </h4>
   <div class="container">
-    <h1>
-      we are all<br />
-      a work in progress..
-    </h1>
+    <FadeUp>
+      <h1>
+        we are all<br />
+        a work in progress..
+      </h1>
+    </FadeUp>
   </div>
 </template>
