@@ -5,15 +5,8 @@
         <h5>tm.ox</h5>
       </a>
       <li v-for="(item, $index) in items" :key="$index">
-        <a
-          @click="setUrlSection(item.section)"
-          :href="item.link"
-          :class="{ active: urlSection === item.link }"
-          class="pl-[2px]"
-          >{{ item.name }}</a
-        >
+        <a :href="item.link" class="pl-1">{{ item.name }}</a>
       </li>
-      <li class="font-light ml-auto">building..</li>
     </ul>
   </nav>
 </template>
@@ -24,17 +17,17 @@ export default {
     return {
       items: [
         {
-          name: "_ hi",
+          name: " _ hi",
           link: "#main",
           section: "hi",
         },
         {
-          name: "_ work",
+          name: " _ work",
           link: "#work",
           section: "work",
         },
         {
-          name: "_ contact",
+          name: " _ contact",
           link: "#contact",
           section: "contact",
         },

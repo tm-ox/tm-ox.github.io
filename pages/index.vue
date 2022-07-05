@@ -1,23 +1,16 @@
 <template>
   <Header />
-  <H1kz />
+  <section id="home">
+    <Home />
+  </section>
   <Nav />
   <section id="main">
-    <h4>hi</h4>
-    <div class="container">
-      <Hi />
-    </div>
+    <Hi />
   </section>
   <section id="work">
-    <h4>work</h4>
-    <div class="container">
-      <Work />
-    </div>
+    <Work />
   </section>
   <section id="contact">
-    <h4>contact</h4>
-    <div class="container">
-      <Contact />
-    </div>
+    <Contact />
   </section>
 </template>

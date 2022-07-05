@@ -28,7 +28,7 @@
         @apply font-extralight text-3xl;
     }
     h4 {
-        @apply text-xl ml-12 mr-auto mt-6 font-bold tracking-wide sticky top-10;
+        @apply text-xl ml-12 mr-auto font-bold tracking-wide sticky top-10;
     }
     p {
         @apply font-light text-xl;
