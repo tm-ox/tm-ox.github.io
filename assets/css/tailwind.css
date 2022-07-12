@@ -66,9 +66,6 @@
   .submitButton {
     @apply self-center bg-primary font-normal text-background hover:bg-midgrey hover:text-primary border-[1px] border-primary py-1 px-6 rounded-2xl trans;
   }
-  .origin {
-    @apply opacity-0 translate-y-1/4 duration-1000;
-  }
 }
 
 input:-webkit-autofill,

@@ -6,7 +6,7 @@
     <FadeUp>
       <h1>
         we are all<br />
-        a work in progress..
+        a <a href="#work">work</a> in progress..
       </h1>
     </FadeUp>
   </div>
