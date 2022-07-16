@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>tm.ox</Title>
+    <Title>TM.OX</Title>
     <Meta name="description" content="Design and stuff.." />
     <Link
       rel="shortcut icon"

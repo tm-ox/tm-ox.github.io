@@ -9,9 +9,7 @@
           slow build.<br />
           here is a pdf for now..
         </h1>
-        <a href="tm-ox-folio-0722-webedit.pdf" target="_blank" class=""
-          >FOLIO</a
-        >
+        <a href="TM-OX-Folio-0722-Web.pdf" target="_blank" class="">FOLIO</a>
       </div>
     </FadeUp>
   </div>
