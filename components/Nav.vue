@@ -2,7 +2,7 @@
   <nav>
     <ul class="flex items-end">
       <a href="#home">
-        <h5>tm.ox</h5>
+        <h5>TM.OX</h5>
       </a>
       <li v-for="(item, $index) in items" :key="$index">
         <a :href="item.link" class="pl-1">{{ item.name }}</a>
@@ -17,17 +17,17 @@ export default {
     return {
       items: [
         {
-          name: " _ hi",
+          name: " _ HI",
           link: "#main",
           section: "hi",
         },
         {
-          name: " _ work",
+          name: " _ WORK",
           link: "#work",
           section: "work",
         },
         {
-          name: " _ contact",
+          name: " _ CONTACT",
           link: "#contact",
           section: "contact",
         },

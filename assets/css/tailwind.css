@@ -10,7 +10,7 @@
       @apply w-full mx-auto p-6 font-jakarta tracking-wide bg-background text-primary;
     }
     header {
-        @apply fixed top-10 z-50;
+        @apply fixed top-[35px] z-50;
     }
     nav {
       @apply sticky top-[calc(100%-64px)] z-50;
@@ -34,10 +34,10 @@
         @apply font-light text-xl;
     }
     h5 {
-        @apply font-extrabold;
+        @apply font-extrabold text-sm;
     }
     a:hover {
-      @apply text-midgrey trans;
+      @apply text-hover trans;
     }
     a:active {
       @apply text-primary trans;
@@ -45,8 +45,11 @@
     a:focus {
       @apply text-primary trans;
     }
+    li {
+      @apply text-sm;
+    }
     textarea {
-      @apply h-24;
+      @apply h-24 text-sm;
     }
 }
 
@@ -61,10 +64,10 @@
     @apply transition duration-300 ease-in-out;
   }
   .form {
-    @apply mb-4 px-4 rounded-2xl bg-midgrey border-0 ring-0 focus:border-0 focus:ring-0 focus:bg-background placeholder:text-primary;
+    @apply mb-4 px-4 rounded-2xl bg-background border-0 ring-0 focus:border-0 focus:ring-0 focus:bg-background placeholder:text-primary text-sm;
   }
   .submitButton {
-    @apply self-center bg-primary font-normal text-background hover:bg-midgrey hover:text-primary border-[1px] border-primary py-1 px-6 rounded-2xl trans;
+    @apply self-center bg-primary text-sm font-bold text-background hover:bg-hover py-1 px-6 rounded-xl trans;
   }
 }
 
@@ -77,8 +80,8 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #fc019c;
-  -webkit-box-shadow: 0 0 0px 1000px #101119 inset;
+  -webkit-text-fill-color: #69e228;
+  -webkit-box-shadow: 0 0 0px 1000px #1e293b inset;
   transition: background-color 5000s ease-in-out 0s;
 }
 

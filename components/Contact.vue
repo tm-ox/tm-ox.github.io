@@ -1,6 +1,6 @@
 <template>
   <h4>
-    <FadeUp>contact</FadeUp>
+    <FadeUp><h5>CONTACT</h5></FadeUp>
   </h4>
   <div class="container">
     <form
@@ -14,20 +14,20 @@
             <input
               type="text"
               name="name"
-              placeholder="name"
+              placeholder="NAME"
               required
               class="form autofill:bg-primary"
             />
             <input
               type="email"
               name="email"
-              placeholder="email"
+              placeholder="EMAIL"
               required
               class="form"
             />
             <textarea
               name="message"
-              placeholder="message"
+              placeholder="MESSAGE"
               required
               class="form pb-0 mb-0"
             ></textarea>
@@ -45,7 +45,7 @@
               value="https://tm.oxenfree.net/sent"
             />
           </div>
-          <button class="submitButton" type="submit">submit</button>
+          <button class="submitButton" type="submit">SUBMIT</button>
         </div>
       </FadeUp>
     </form>

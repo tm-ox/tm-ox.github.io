@@ -9,11 +9,11 @@ module.exports = {
   mode: "jit",
   theme: {
     colors: {
-      primary: "#fc019c",
+      primary: "#69e228",
       secondary: "#F1E7E4",
-      background: "#101119",
+      background: "#1e293b",
       midgrey: "#1B1F22",
-      hover: "#9F3324",
+      hover: "#47A216",
       white: "#FFFFFF",
     },
     extend: {

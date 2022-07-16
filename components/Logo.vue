@@ -1,57 +1,35 @@
 <template>
-  <div class="flex w-8 h-8 p-0 rounded-full bg-cover">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      width="100%"
-      height="100%"
-      viewBox="0 0 2872.63 2751.37"
-    >
-      <defs>
-        <radialGradient
-          id="a"
-          cx="1436.31"
-          cy="1375.68"
-          r="1406.32"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset="0" stop-color="#fc019c" />
-          <stop offset="0.37" stop-color="#fa019b" stop-opacity="0.99" />
-          <stop offset="0.51" stop-color="#f40298" stop-opacity="0.97" />
-          <stop offset="0.6" stop-color="#e90392" stop-opacity="0.92" />
-          <stop offset="0.68" stop-color="#da0589" stop-opacity="0.85" />
-          <stop offset="0.75" stop-color="#c6077e" stop-opacity="0.76" />
-          <stop offset="0.81" stop-color="#ae0970" stop-opacity="0.66" />
-          <stop offset="0.86" stop-color="#900c60" stop-opacity="0.53" />
-          <stop offset="0.91" stop-color="#6e104c" stop-opacity="0.38" />
-          <stop offset="0.95" stop-color="#471436" stop-opacity="0.21" />
-          <stop offset="0.99" stop-color="#1e181f" stop-opacity="0.03" />
-          <stop offset="1" stop-color="#18191c" stop-opacity="0" />
-        </radialGradient>
-      </defs>
-      <path
-        d="M2760,1166.14c-38.26,44-81.07,94.2-95.14,111.58l-14.68,14.69c-175.29,175.28-459.48,175.28-634.77,0s-175.29-459.48,0-634.77L2030.09,643c17.38-14.06,84.26-71.38,148.64-127.37l76.72-66.73c64.37-56,57.18-137.71-16-181.6C2239.47,267.25,1794,0,1436.31,0S633.16,267.25,633.16,267.25c-73.17,43.89-80.36,125.61-16,181.6l76.72,66.73c64.37,56,131.26,113.31,148.64,127.37l14.69,14.69c175.28,175.29,175.28,459.48,0,634.77s-459.48,175.28-634.77,0l-14.69-14.69c-14.06-17.38-56.87-67.59-95.13-111.58s-82.45-11.37-98.2,72.48c0,0-14.44,76.9-14.44,197.69,0,655.09,911,1291.5,911,1291.5,69.93,48.87,122.31,19.21,116.38-65.9l-24.83-356.45c-5.92-85.11-12.69-172.93-15-195.17v-20.77c0-247.89,201-448.85,448.84-448.85s448.85,201,448.85,448.85v20.77c-2.34,22.24-9.11,110.06-15,195.17l-24.82,356.45c-5.93,85.11,46.44,114.77,116.38,65.9,0,0,911-636.41,911-1291.5,0-120.79-14.44-197.69-14.44-197.69C2842.44,1154.77,2798.25,1122.15,2760,1166.14Z"
-        fill="url(#a)"
-      />
-    </svg>
-  </div>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="auto"
+    height="auto"
+    viewBox="0 0 1000 957.79"
+  >
+    <defs>
+      <radialGradient
+        id="a"
+        cx="500"
+        cy="488.64"
+        r="489.56"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stop-color="#69e228" />
+        <stop offset="0.24" stop-color="#68e028" stop-opacity="0.99" />
+        <stop offset="0.38" stop-color="#65d929" stop-opacity="0.95" />
+        <stop offset="0.49" stop-color="#61cd2a" stop-opacity="0.89" />
+        <stop offset="0.6" stop-color="#5abd2c" stop-opacity="0.8" />
+        <stop offset="0.69" stop-color="#51a72e" stop-opacity="0.68" />
+        <stop offset="0.78" stop-color="#468d31" stop-opacity="0.54" />
+        <stop offset="0.86" stop-color="#3a6d34" stop-opacity="0.37" />
+        <stop offset="0.94" stop-color="#2b4a38" stop-opacity="0.18" />
+        <stop offset="1" stop-color="#1e293b" stop-opacity="0" />
+      </radialGradient>
+    </defs>
+    <path
+      d="M960.79,415.69c-13.32,15.32-28.22,32.79-33.12,38.84l-5.11,5.12a156.25,156.25,0,0,1-221-221l5.11-5.12c6-4.89,29.34-24.85,51.74-44.34L785.15,166c22.41-19.49,19.91-47.94-5.56-63.21,0,0-155.08-93-279.59-93s-279.59,93-279.59,93c-25.47,15.27-28,43.72-5.56,63.21l26.71,23.23c22.4,19.49,45.69,39.45,51.74,44.34l5.11,5.12a156.25,156.25,0,0,1-221,221l-5.11-5.12c-4.9-6-19.8-23.52-33.12-38.84s-28.7-4-34.18,25.23c0,0-5,26.77-5,68.82,0,228,317.11,449.59,317.11,449.59,24.35,17,42.58,6.69,40.52-22.94L349,812.31c-2.07-29.63-4.42-60.21-5.24-67.95v-7.23a156.25,156.25,0,0,1,312.5,0v7.23c-.82,7.74-3.17,38.32-5.24,67.95l-8.64,124.08c-2.06,29.63,16.17,40,40.52,22.94,0,0,317.11-221.54,317.11-449.59,0-42.05-5-68.82-5-68.82C989.49,411.73,974.11,400.38,960.79,415.69Z"
+      transform="translate(0 -9.74)"
+      fill="url(#a)"
+    />
+  </svg>
 </template>
-
-<stop offset="0" style="stop-color: #fc019c; stop-opacity: 1" />
-<stop offset="0.5808" style="stop-color: #fc019c; stop-opacity: 0.41960785" />
-<stop offset="0.79" style="stop-color: #fc019c; stop-opacity: 0.21176471" />
-<stop offset="0.9386" style="stop-color: #101119; stop-opacity: 6.139398e-2" />
-<stop offset="1" style="stop-color: #101119; stop-opacity: 0" />
-
-<stop offset="0" stop-color="#fc019c" />
-<stop offset="0.37" stop-color="#fa019b" stop-opacity="0.99" />
-<stop offset="0.51" stop-color="#f40298" stop-opacity="0.97" />
-<stop offset="0.6" stop-color="#e90392" stop-opacity="0.92" />
-<stop offset="0.68" stop-color="#da0589" stop-opacity="0.85" />
-<stop offset="0.75" stop-color="#c6077e" stop-opacity="0.76" />
-<stop offset="0.81" stop-color="#ae0970" stop-opacity="0.66" />
-<stop offset="0.86" stop-color="#900c60" stop-opacity="0.53" />
-<stop offset="0.91" stop-color="#6e104c" stop-opacity="0.38" />
-<stop offset="0.95" stop-color="#471436" stop-opacity="0.21" />
-<stop offset="0.99" stop-color="#1e181f" stop-opacity="0.03" />
-<stop offset="1" stop-color="#18191c" stop-opacity="0" />

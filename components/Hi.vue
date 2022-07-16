@@ -1,6 +1,6 @@
 <template>
   <h4>
-    <FadeUp>hi</FadeUp>
+    <FadeUp><h5>HI</h5></FadeUp>
   </h4>
   <div class="container">
     <FadeUp>

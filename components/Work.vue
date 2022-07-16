@@ -1,6 +1,6 @@
 <template>
   <h4>
-    <FadeUp>work</FadeUp>
+    <FadeUp><h5>WORK</h5></FadeUp>
   </h4>
   <div class="container">
     <FadeUp>
@@ -9,7 +9,9 @@
           slow build.<br />
           here is a pdf for now..
         </h1>
-        <a href="TM_Folio_0522_WebEdit.pdf" target="_blank" class="">folio</a>
+        <a href="tm-ox-folio-0722-webedit.pdf" target="_blank" class=""
+          >FOLIO</a
+        >
       </div>
     </FadeUp>
   </div>

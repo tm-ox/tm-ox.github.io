@@ -2,7 +2,9 @@
   <Header />
   <section id="main">
     <h4>
-      <FadeUp><a href="/">tm.ox</a></FadeUp>
+      <FadeUp
+        ><a href="/"><h5>TM.OX</h5></a></FadeUp
+      >
     </h4>
     <div class="container flex flex-col justify-center align-middle">
       <FadeUp>
@@ -10,7 +12,7 @@
           <h1>sent..</h1>
           <h3>thanks</h3>
         </div>
-        <a href="/">back</a>
+        <a href="/">BACK</a>
       </FadeUp>
     </div>
   </section>
